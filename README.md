@@ -2,11 +2,6 @@
 
 ## AIM:
 To write a program to find the square root of a number.
-
-## Equipments Required:
-1. Hardware – PCs
-2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
-
 ## Algorithm
 1. Define a function.
 2. Assign number_iters = 100 in the function to perform 100 iteratios.
@@ -16,16 +11,19 @@ To write a program to find the square root of a number.
 
 ## Program:
 ```
-/*
-Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
-*/
+Name:sirisha onteddu
+ref.no:22003264
+def sqrt():
+    x=int(input())
+    b=x
+    for i in range(10):
+        x=0.5*(x+b/x)
+    return x
+print("Square root of the number:",sqrt())
 ```
 
 ## Output:
-![gcd of two number](gcd.png)
-
+![image](https://user-images.githubusercontent.com/119389139/213917595-8b516581-25f5-4e0b-9f39-3977549a2a81.png)
 
 ## Result:
 Thus the program to find the square root for the given number(newton's method) using function is written and verified using python programming.
